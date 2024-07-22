@@ -13,14 +13,7 @@ CREATE TABLE department (
 -- Insert sample data into the department table
 INSERT INTO department (dept_id, name)
 VALUES 
-    (1, 'HR'),
-    (3, 'Finance'),
-    (5, 'IT'),
-    (7, 'Marketing'),
-    (15, 'Sales'),
-    (365, 'Engineering'),
-    (87, 'Operations'),
-    (100, 'Support');
+    
 
 -- Drop the employee table if it already exists
 DROP TABLE IF EXISTS employee;
