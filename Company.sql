@@ -1,5 +1,5 @@
 -- Creating the database
-CREATE DATABASE CompanyDB;
+CREATE DATABASE ;
 
 -- Using the newly created database
 USE CompanyDB;
