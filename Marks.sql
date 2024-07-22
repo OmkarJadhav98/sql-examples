@@ -15,7 +15,16 @@ CREATE TABLE marks (
 
 -- Inserting sample data into the marks table
 INSERT INTO marks (id, name, marathi, english, maths) VALUES
-
+(1, 'Alice', 85, 90, 95),
+(2, 'Bob', 78, 85, 88),
+(3, 'Charlie', 92, 88, 84),
+(4, 'David', 76, 81, 79),
+(5, 'Eve', 89, 94, 91),
+(6, 'Frank', 95, 87, 92),
+(7, 'Grace', 83, 80, 85),
+(8, 'Hank', 77, 75, 78),
+(9, 'Ivy', 84, 89, 90),
+(10, 'Jack', 91, 86, 83);
 
 -- Selecting all records from the marks table
 SELECT * FROM marks;
